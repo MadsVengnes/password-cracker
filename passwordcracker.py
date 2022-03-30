@@ -80,7 +80,7 @@ elif what_to_do == "crack":
     check_dictionary()    
 
     min_len = int(input("Minimum length: "))
-    for word in tqdm.tqdm(wordlist):
+    for word in tqdm.tqdm(wordlist): #to-do: fix loading bar bug
         
         if len(word) >= min_len:
             word = word.strip()
