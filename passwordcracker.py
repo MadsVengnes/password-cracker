@@ -63,7 +63,7 @@ def change_hash_to_crack():
     
 
 hash_type = input("Hash type: ")
-lang = input("Language? (en/no)")
+lang = input("Language? (en/no) ")
 if lang == "en":
     wordlist = open("english.txt").readlines()
 elif lang == "no":
